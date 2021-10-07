@@ -1,7 +1,10 @@
 /*
 1. Create a function named `sayHello` that that accepts a parameter `name` and alert `Hello [name]!`.
 */
-
+function sayHello(name){
+  alert(name)
+}
+sayHello(jiya);
 /*
 2. Create a function named `getFullName` that accepts two parameter `firstName` and `lastName` and returns
 fullName.
@@ -10,6 +13,11 @@ Example:
   getFullName("John", "Snow"); // "John Snow"
   getFullName("Nelson", "Mandela"); // "Nelson Mandela"
 */
+function getFullName(firstName,lastName){
+  return fullName
+}
+getFullName("jiya","Keshwani");
+getFullName("john","Snow");
 
 /*
 3. Create a function named `addTwoNumbers` that accepts two numbers i.e `firstNum` and `secondNum` and returns
@@ -20,7 +28,12 @@ addTwoNumbers(10, 22); // 32
 addTwoNumbers(20, 32); // 32
 addTwoNumbers(10, "100"); // Alert Enter Valid Input
 */
-
+function addTwoNumbers(firstNum, secondNum){
+  return Sum
+}
+addTwoNumbers(10 , 23);
+addTwoNumbers(19 , 67);
+addTwoNumbers("34" , 23);alert("enter a valid input");
 /*
 4. Create a function named `calc` which accepts three parameter `numA`, `numB` and `operation`. Operation
 can only be one of these `add, sub, mul, div`. Based on the operator return the value. If the `numA` or `numB`
@@ -46,3 +59,8 @@ isLeapYear(2001); // false
 /*
 6. Create a function named `getFactorial` that accepts a number and return the factorial of the number.
 */
+let number = +prompt("enter a number");
+function getFactorial(number){
+  return number
+}
+getFactorial(number);
